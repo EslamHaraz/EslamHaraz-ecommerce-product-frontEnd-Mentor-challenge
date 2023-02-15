@@ -219,6 +219,9 @@ header .container .box-buy .parent img.logo {
 .product-Number.open {
   opacity: 1;
 }
+i.delete {
+  cursor: pointer;
+}
 .box {
   position: absolute;
     top: 67px;
