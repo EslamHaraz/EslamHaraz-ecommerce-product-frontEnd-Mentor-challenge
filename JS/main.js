@@ -134,7 +134,8 @@ addButton.onclick = (e) => {
   productInfo.appendChild(price);
   parent.appendChild(productInfo);
   let iconDelete = document.createElement("i");
-  iconDelete.className = "fa-solid fa-trash";
+  
+  iconDelete.className = "fa-solid fa-trash delete";
   iconDelete.onclick = () => {
     boxOrder.remove();
     productNumber.innerHTML = "";
