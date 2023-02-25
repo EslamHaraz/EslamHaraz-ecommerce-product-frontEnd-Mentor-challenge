@@ -7,7 +7,7 @@ incrementButton.onclick = () => {
   number.textContent++;
 };
 decrementButton.onclick = () => {
-  if (number.textContent === "0") {
+  if (number.textContent === "1") {
     return;
   }
   number.textContent--;
